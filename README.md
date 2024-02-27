@@ -14,8 +14,7 @@ Make sure you have the following installed:
 ### Installation
 
 1. Clone the repository:
-
-git clone https://github.com/hixmanshu00/Radiant-Riches-Assignment.git
+-   git clone https://github.com/hixmanshu00/Radiant-Riches-Assignment.git
 
 2. Navigate to the project directory:
 -   cd nextjs-project
