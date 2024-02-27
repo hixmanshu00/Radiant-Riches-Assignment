@@ -1,0 +1,23 @@
+@import "_colors.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 75%;
+  margin: auto;
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+button {
+  background-color: $tertiary;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: smaller;
+}

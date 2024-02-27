@@ -1,0 +1,39 @@
+@import "_colors.scss";
+
+.footer {
+  background-color: $primary;
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  padding-top: 30px;
+  h4 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    .footer-link {
+      padding-bottom: 10px;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.441);
+      font-size: smaller;
+    }
+  }
+  .country {
+    display: flex;
+    color: rgba(255, 255, 255, 0.441);
+    align-items: center;
+    gap: 10px;
+    font-size: smaller;
+    height: 50%;
+  }
+  @media (max-width: 576px) {
+    flex-direction: column;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

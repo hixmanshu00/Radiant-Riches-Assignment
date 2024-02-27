@@ -1,0 +1,86 @@
+@import "_colors.scss";
+
+.deal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .deals-head {
+    color: $primary;
+    font-size: xx-large;
+    font-weight: 300;
+    text-align: left;
+    width: 90%;
+  }
+  .cards-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 576px) {
+      flex-direction: column;
+    }
+
+    .card-container {
+      .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .tags {
+        display: flex;
+        font-size: 15px;
+        gap: 8px;
+
+        p {
+          background-color: #f1f5f9;
+          color: #0369a1;
+          padding: 6px;
+          border-radius: 10px;
+        }
+      }
+      h4 {
+        width: 100%;
+        color: $secondary;
+        margin-top: 0;
+        text-align: center;
+      }
+      p {
+        margin-top: 2px;
+        font-size: smaller;
+        color: #6b7280;
+        max-width: 300px;
+      }
+      .pricing {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        .price {
+          font-size: large;
+          font-weight: 400;
+          color: $secondary;
+        }
+        .original-price {
+          font-size: x-small;
+          color: $secondary;
+          padding: 0px 5px;
+        }
+        .discount {
+          font-size: x-small;
+          color: red;
+          padding: 0px 5px;
+        }
+      }
+      button {
+        width: 90%;
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    .cards-container {
+      align-items: center;
+      .card-container {
+        padding-bottom: 40px;
+        border-bottom: 1px gray outset;
+      }
+    }
+  }
+}
