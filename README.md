@@ -17,7 +17,7 @@ Make sure you have the following installed:
 -   git clone https://github.com/hixmanshu00/Radiant-Riches-Assignment.git
 
 2. Navigate to the project directory:
--   cd nextjs-project
+-   cd radiant-riches-assignment
 
 3. Install dependencies:
 -   npm install
